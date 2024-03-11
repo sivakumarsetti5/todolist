@@ -1,0 +1,25 @@
+.item-container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgb(76, 160, 238);
+    color:#ffffff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    margin-bottom:8px;
+    border-radius: 5px 3px;
+}
+.button-container{
+    display:flex;
+    flex-direction: row;
+}
+.edit-btn{
+    border:none;
+    background-color: transparent;
+    color:#ffffff;
+}
+.delete-btn{
+    border:none;
+    background-color: transparent;
+    color:red;
+}
